@@ -29,7 +29,7 @@ Tiny slider for all purposes, inspired by [Owl Carousel](https://owlcarousel2.gi
 ## What's new
 - Using `%` instead of `px` (No more recalculation of each slide width on window resize)
 - Using CSS Mediaqueries if supported
-- Save browser capbility values to [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), so they will not be recheck again until browser get upgraded or user clear the localStorage manuelly.
+- Save browser capbility values to [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage), so they will not be recheck again until browser get upgraded or user clear the localStorage manually.
 - More options available for `responsive`. (Start from [v2.1.0](https://github.com/ganlanyuan/tiny-slider/releases/tag/v2.1.0), [issue 53](https://github.com/ganlanyuan/tiny-slider/issues/53))
 - Insert `controls` and `nav` _before_ slider instead of after ([issue 4](https://github.com/ganlanyuan/tiny-slider/issues/4))
 - Move `autoplay` button out of `nav` container. (Start from [v2.1.0](https://github.com/ganlanyuan/tiny-slider/releases/tag/v2.1.0))
@@ -264,7 +264,7 @@ Or import `tns` directly start from v2.8.7
 | `nextButton` | Node \| String \| false | Default: false. <br> Customized next buttons. <br> This option will be ignored if `controlsContainer` is a Node element or a CSS selector. |
 | `nav` | Boolean | Default: true. <br> Controls the display and functionalities of `nav` components (dots). If `true`, display the `nav` and add all functionalities. |
 | `navContainer` | Node \| String \| false | Default: false. <br> The container element/selector around the dots. <br> `navContainer` must have at least same number of children as the slides. |
-| `navAsThumbnails` | Boolean | Default: false. <br> Indecate if the dots are thurbnails. If `true`, they will always be visible even when more than 1 slides displayed in the viewport. |
+| `navAsThumbnails` | Boolean | Default: false. <br> Indicate if the dots are thumbnails. If `true`, they will always be visible even when more than 1 slides displayed in the viewport. |
 | `arrowKeys` | Boolean | Default: false. <br> Allows using arrow keys to switch slides. |
 | `speed` | positive integer | Default: 300. <br> Speed of the slide animation (in "ms"). |
 | `autoplay` | Boolean | Default: false. <br> Toggles the automatic change of slides. |
@@ -288,7 +288,7 @@ Or import `tns` directly start from v2.8.7
 | `touch` | Boolean | Default: true. <br> Activates input detection for touch devices. |
 | `mouseDrag` | Boolean | Default: false. <br> Changing slides by dragging them. |
 | `swipeAngle` | positive integer \| Boolean | Default: 15. <br> Swipe or drag will not be triggered if the angle is not inside the range when set. |
-| `nested` | "inner" \| "outer" \| false | Default: false. <br> Difine the relationship between nested sliders. (see [demo](http://ganlanyuan.github.io/tiny-slider/demo/#nested_wrapper)) <br>Make sure you run the inner slider first, otherwise the height of the inner slider container will be wrong. |
+| `nested` | "inner" \| "outer" \| false | Default: false. <br> Define the relationship between nested sliders. (see [demo](http://ganlanyuan.github.io/tiny-slider/demo/#nested_wrapper)) <br>Make sure you run the inner slider first, otherwise the height of the inner slider container will be wrong. |
 | `freezable` | Boolean | Default: true. <br> Indicate whether the slider will be frozen (`controls`, `nav`, `autoplay` and other functions will stop work) when all slides can be displayed in one page. |
 | `disable` | Boolean | Default: false. <br> Disable slider. |
 | `startIndex` | positive integer | Default: 0. <br> The initial `index` of the slider. |
